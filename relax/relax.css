@@ -1,0 +1,51 @@
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+}
+
+#countdown {
+    color:  rgb(249, 240, 226);
+    text-align: center;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#button {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    background-color:  rgba(250, 230, 201, 0.145);
+    color:  rgb(250, 230, 201);
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#playButton {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    background-color:  rgba(250, 230, 201, 0.145);;
+    color:  rgb(250, 230, 201);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,112 @@
+body {
+    background-image: url("plankwoman.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-color: rgba(250, 133, 153, 0.334);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.737), rgba(250, 133, 153, 0.334));
+    color: rgb(68, 28, 2);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+#container {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.737), rgba(250, 133, 153, 0.334));
+    color: rgb(68, 28, 2);
+    width: 40%;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+li {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+#timer {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.737), rgba(250, 133, 153, 0.334));
+    color: rgb(68, 28, 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#input {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    color: rgb(68, 28, 2);
+}
+
+#button {
+    width: 150px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    color: rgb(68, 28, 2);
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.508);
+}
+
+#button:hover {
+    background-color:  rgba(250, 133, 152, 0.442);
+    color: white;
+}
+
+#countdown {
+    width: 200px;
+    margin-top: 30px;
+    font-size: 60px;
+    color: rgb(68, 28, 2);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#relaxButton {
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 5px 5px 40px 10px white;
+    background-color: white;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 28, 2);
+}
+
+@media all and (max-width:500px) {
+    body {
+        height: 130vh;
+    }
+    #container, #timer {
+        width: 80%;
+        margin-left: 5px;
+    }
+}
